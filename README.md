@@ -25,15 +25,19 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
+# Evolution of Venom in Snakes
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+Saliva in snakes and a limited number of other lizards has evolved into venom that organisms can use to subdue to kill prey. There is debate over this evolutionary history, especially when examining morphological versus molecular phylogenies and studies. Convergent evolution has been suggested for some modes of venom evolution, such as between snakes, spiders, and snails, meanwhile independent evolution is suggested for modes of venom delivery, such as specialized fangs.
 
-The methods I will use to do this are...
+A mid-2000s theory proposed that venom evolved once and was present in the clade named “Toxicofera” and was subsequently lost in various lineages. However, a 2014 study found that conserved venom proteins across Toxicofera lineages were misinterpreted and that instead venom evolved independently multiple times. Even still, the original hypothesis is supported (Rao et al, 2022). I will look to examine gene sequences in species of venomous and non-venomous snakes to determine how to best represent venom evolution with phylogenetics and gene sequencing.
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+The goal of my project is to answer the questions: how did venom in snakes evolve and how can this best be described phylogenetically? 
+
+The methods I will use to do this are an analysis of the available data using a text editor (Visual Studio Code). I will then align the data sequences using MAFFT. After aligning the sequences with MAFFT, I will determine where genetic variation in the sequences occurs, specifically after insertion and deletion events. Using IQTREE, I will infer a phylogeny of various snake clades according to their venom evolution. 
+
+The data I will use are publicly available from the National Center for Biotechnology Information’s (NCBI) Taxonomy Browser. Species sequences will be taken from the clades Acrochordoidea, Xenodermatidae, Pareatidae, Viperidae, Colubridae, Elapidae, and Lamprophiidae.  
 
 ## Methods
 
@@ -52,4 +56,6 @@ The biggest difficulty in implementing these analyses was...
 If I did these analyses again, I would...
 
 ## References
+Rao, Wei-qiao; Kalogeropoulos, Konstantinos; Allentoft, Morten E; Gopalakrishnan, Shyam; Zhao, Wei-ning; Workman, Christopher T; Knudsen, Cecilie; Jiménez-Mena, Belén; Seneci, Lorenzo; Mousavi-Derazmahalleh, Mahsa; Jenkins, Timothy P; Rivera-de-Torre, Esperanza; Liu, Si-qi; Laustsen, Andreas H (2022). "The rise of genomics in snake venom research: recent advances and future perspectives". GigaScience. 11. Oxford University Press (OUP). doi:10.1093/gigascience/giac024
+
 
